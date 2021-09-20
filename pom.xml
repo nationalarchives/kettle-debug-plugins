@@ -62,7 +62,7 @@
 
     <properties>
         <pentaho-kettle.version>9.1.0.0-324</pentaho-kettle.version>
-        <pentaho-kettle.plugins.dir>C:\data-integration9.1\plugins</pentaho-kettle.plugins.dir>
+        <pentaho-kettle.plugins.dir>C:\data-integration9.1-SNAPSHOT\plugins</pentaho-kettle.plugins.dir>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <java.source.version>1.8</java.source.version>
         <java.target.version>1.8</java.target.version>
