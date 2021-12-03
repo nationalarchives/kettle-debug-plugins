@@ -28,6 +28,6 @@ jobs:
           key: ${{ runner.os }}-m2-${{ hashFiles('**/pom.xml') }}
           restore-keys: ${{ runner.os }}-m2
       - name: Maven Build
-        run: mvn -V -B -DskipTests=true install
+        run: mvn -V -B -DskipTests=true "-Dgpg.skip=true" install
       - name: Maven Test
-        run: mvn -V -B verify
+        run: mvn -B "-Dgpg.skip=true" verify
