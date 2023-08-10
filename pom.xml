@@ -73,6 +73,16 @@
             <name>PentahoNexus</name>
             <url>https://nexus.pentaho.org/content/groups/omni</url>
         </repository>
+        <repository>
+            <id>EvolvedBinary-PentahoMaven-Proxy</id>
+            <name>EvolvedBinary-PentahoMaven-Proxy</name>
+            <url>https://repo.evolvedbinary.com/repository/pentaho-maven-proxy/</url>
+        </repository>
+        <repository>
+            <id>clojars</id>
+            <name>Clojars</name>
+            <url>https://clojars.org/repo/</url>
+        </repository>
     </repositories>
 
     <distributionManagement>
